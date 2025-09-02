@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+input {
+  padding: 8px;
+  width: 200px;
+}
+
+button {
+  padding: 8px 12px;
+  margin-left: 5px;
+}
+
+ul {
+  margin-top: 20px;
+}
+
+li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+/* Checked item styling */
+.checked {
+  text-decoration: line-through;
+  color: green;
+}
+
+/* Delete button styling */
+.close {
+  margin-left: 10px;
+  color: red;
+  cursor: pointer;
+  font-weight: bold;
+}
